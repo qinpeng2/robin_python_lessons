@@ -3,6 +3,7 @@
     功能：BMR计算器
     版本：3.0
     日期：03/17/2019
+    string split/format
 """
 
 
