@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ca2bf05-08bd-47e8-a2e9-f5aa26d61055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lec08/dice_v5.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec09/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec08/plt_burndown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec08/plt_sin_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec09/aqi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec09/beijing_aqi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec09/bottom10_aqi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec09/china_city_aqi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec09/shanghai_aqi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec09/top10_aqi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec09/top50_aqi_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec09/top5_aqi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec09/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lec09/aqi_v4.0.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,50 +22,82 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lec08/dice_v4.0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="20" />
-              <folding>
-                <element signature="e#187#200#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lec08/dice_v5.0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding>
-                <element signature="e#212#243#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///anaconda3/lib/python3.7/site-packages/matplotlib/pyplot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="1482" column="4" selection-start-line="1482" selection-start-column="4" selection-end-line="1482" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect08_模拟掷骰子/代码/lect08_v4.0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="42" selection-start-line="42" selection-end-line="45" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lec09/aqi_v4.0.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#98#107#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lec08/plt_burndown.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lec08/dice_v5.0.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#212#243#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect09_空气质量指数计算/代码/aqi_v4.0.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file:///anaconda3/lib/python3.7/site-packages/matplotlib/pyplot.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="41400">
+                  <caret line="2809" column="4" selection-start-line="2809" selection-start-column="4" selection-end-line="2809" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect09_空气质量指数计算/代码/aqi_v4.0.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-281">
+                  <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#60#71#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,14 +144,16 @@
         <option value="$PROJECT_DIR$/lec08/dice_v3.0.py" />
         <option value="$PROJECT_DIR$/lec08/dice_v4.0.py" />
         <option value="$PROJECT_DIR$/lec08/dice_v5.0.py" />
+        <option value="$PROJECT_DIR$/lec08/sin_test.py" />
+        <option value="$PROJECT_DIR$/lec08/burndown.py" />
+        <option value="$PROJECT_DIR$/lec09/aqi_v4.0.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="266" />
-    <option name="y" value="-1001" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="830" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,15 +203,15 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lec01" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lec09" />
       <recent name="$PROJECT_DIR$/lec08" />
       <recent name="$PROJECT_DIR$/lec06" />
       <recent name="$PROJECT_DIR$/lec05" />
       <recent name="$PROJECT_DIR$/lec04" />
-      <recent name="$PROJECT_DIR$/lec03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lec01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,8 +226,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dice_v5.0">
-    <configuration name="dice_v2.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.aqi_v4.0">
+    <configuration name="aqi_v4.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="robin_lesson" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,11 +235,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lec08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lec09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lec08/dice_v2.0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lec09/aqi_v4.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +248,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dice_v3.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="burndown" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="robin_lesson" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,28 +260,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lec08/dice_v3.0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dice_v4.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="robin_lesson" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lec08" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lec08/dice_v4.0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lec08/plt_burndown.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,13 +332,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sin_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="robin_lesson" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lec08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lec08/plt_sin_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aqi_v4.0" />
+        <item itemvalue="Python.burndown" />
+        <item itemvalue="Python.sin_test" />
         <item itemvalue="Python.dice_v5.0" />
         <item itemvalue="Python.lect08_v5.0" />
-        <item itemvalue="Python.dice_v4.0" />
-        <item itemvalue="Python.dice_v3.0" />
-        <item itemvalue="Python.dice_v2.0" />
       </list>
     </recent_temporary>
   </component>
@@ -408,20 +451,27 @@
       <option name="project" value="LOCAL" />
       <updated>1553961388229</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lec08 -&gt; dice_v5.0 - numpy">
+      <created>1554198774508</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554198774508</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.112164296" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19168429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24870466" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3980978" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24761905" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39792746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -464,7 +514,8 @@
     <MESSAGE value="lec08 -&gt; dice_v1.0" />
     <MESSAGE value="lec08 -&gt; dice_v2.0" />
     <MESSAGE value="lec08 -&gt; dice_v3.0 &amp; v4.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="lec08 -&gt; dice_v3.0 &amp; v4.0" />
+    <MESSAGE value="lec08 -&gt; dice_v5.0 - numpy" />
+    <option name="LAST_COMMIT_MESSAGE" value="lec08 -&gt; dice_v5.0 - numpy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -478,16 +529,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lec01/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lec01/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lec02/currency_converter_v2.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -712,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lec08/dice_v1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lec06/which_day_v4.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -757,20 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect08_模拟掷骰子/代码/lect08_v4.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="42" selection-start-line="42" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="1482" column="4" selection-start-line="1482" selection-start-column="4" selection-end-line="1482" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect08_模拟掷骰子/代码/lect08_v5.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -778,6 +798,13 @@
           <folding>
             <element signature="e#144#175#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/-849347325/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="2033" column="22" lean-forward="true" selection-start-line="2033" selection-start-column="22" selection-end-line="2033" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -791,19 +818,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/-849347325/numpy/random/mtrand.py">
+    <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect08_模拟掷骰子/代码/lect08_v4.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="2033" column="22" lean-forward="true" selection-start-line="2033" selection-start-column="22" selection-end-line="2033" selection-end-column="22" />
+        <state relative-caret-position="345">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec09/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec08/dice_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41400">
+          <caret line="2809" column="4" selection-start-line="2809" selection-start-column="4" selection-end-line="2809" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec09/china_city_aqi.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec08/plt_sin_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec08/plt_burndown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lec08/dice_v5.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="e#212#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect09_空气质量指数计算/代码/aqi_v4.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec09/top5_aqi.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="910" lean-forward="true" selection-start-column="910" selection-end-column="910" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec09/aqi_v4.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="e#98#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
