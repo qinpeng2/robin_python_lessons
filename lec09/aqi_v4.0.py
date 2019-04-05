@@ -34,6 +34,13 @@ def main():
         主函数
     """
     file_path = input("请输入文件名:")
+
+    # 查看文件是否存在
+    if not os.path.exists(file_path):
+        print("对不起，文件不存在！")
+        return
+
+    # 获取文件名和文件后缀
     file_name, file_ext = os.path.splitext(file_path)
 
     if file_ext == '.json':
