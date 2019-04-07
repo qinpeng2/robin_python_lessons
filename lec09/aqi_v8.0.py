@@ -39,7 +39,7 @@ def get_all_cities():
     result = requests.get(url, timeout=30).text
     soap = BeautifulSoup(result, 'lxml')
     # Parse the cities
-    city_div = soap.find('div', class_="bottom")
+    city_div = soap.find('div', class_="all")
     city_links = city_div.find_all('a')
     city_list = []
 
