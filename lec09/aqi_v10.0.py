@@ -1,13 +1,15 @@
 """
     功能：空气质量指数
     作者：Allen
-    版本：9.0
-    说明：v9.0 使用pandas库进行如下操作：
-        1）csv操作
-        2）数据统计
-    日期：2019/04/07
+    版本：10.0
+    说明：v10.0 Pandas数据清洗，生成统计图与图片
+    日期：2019/04/08
 """
 import pandas
+import matplotlib.pyplot as plt
+
+plt.rcParams['font.sans-serif'] = ['SimHei']
+plt.rcParams['axes.unicode_minus'] = False
 
 
 def main():
@@ -26,6 +28,9 @@ def main():
     print(aqi_data.head())
     print(splitter)
 
+    # 清洗数据
+    aqi_data = aqi_data[aqi_data['AQI'] > 0]
+
     # 基本统计
     print('AQI最大值', aqi_data['AQI'].max())
     print('AQI最小值', aqi_data['AQI'].min())
@@ -33,21 +38,13 @@ def main():
     print(splitter)
 
     # top 10
-    top10_cities = aqi_data.sort_values(by=['AQI']).head(10)
-    print('AQI排名前十: ')
-    print(top10_cities)
-    print(splitter)
+    top50_cities = aqi_data.sort_values(by=['AQI']).head(50)
+    top50_cities.plot(kind='bar', x='City', y='AQI',
+                      title='空气质量全国前50', figsize=(20, 10))
 
-    # bottom 10
-    # bottom10_cities = aqi_data.sort_values(by=['AQI']).tail(10)
-    bottom10_cities = aqi_data.sort_values(by=['AQI'], ascending=False).head(10)
-    print('AQI排名最差前十：')
-    print(bottom10_cities)
-    print(splitter)
-
-    # 保存CSV文件
-    top10_cities.to_csv('output_data/v9.0_top10_aqi.csv', index=False)
-    bottom10_cities.to_csv('output_data/v9.0_bottom10_aqi.csv', index=False)
+    # 生成统计图，以及图片
+    plt.savefig('output_data/v10.0_top50_aqi_bar.png')
+    plt.show()
 
 
 if __name__ == '__main__':
