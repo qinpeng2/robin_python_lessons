@@ -63,6 +63,8 @@ def main():
         writer = csv.writer(f)
         writer.writerow(header)
         for i, city in enumerate(city_list):
+            if (i+1) % 10 == 0 :
+                print('已处理{}/{}条数据'.format(i+1, len(city_list)))
             city_name, city_alias = city
             city_row = [city_name] + list(city_aqi(city_alias).values())
             writer.writerow(city_row)
