@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ca2bf05-08bd-47e8-a2e9-f5aa26d61055" name="Default Changelist" comment="lec09 -&gt; aqi_v9.0 &#10;获取城市列表，自动获取所有城市数据，写入到CSV文件中">
-      <change afterPath="$PROJECT_DIR$/lec09/aqi_v9.0.py" afterDir="false" />
+    <list default="true" id="7ca2bf05-08bd-47e8-a2e9-f5aa26d61055" name="Default Changelist" comment="lec09 -&gt; aqi_v9.0 &#10;Pandas">
+      <change afterPath="$PROJECT_DIR$/lec09/output_data/v9.0_bottom10_aqi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec09/output_data/v9.0_top10_aqi.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lec09/aqi_v8.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/lec09/aqi_v8.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lec09/input_data/china_city_aqi.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lec09/output_data/v8.0_pm25in_city_aqi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lec09/output_data/v8.0_pm25in_city_aqi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec09/aqi_v9.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/lec09/aqi_v9.0.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,41 +17,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lec09/aqi_v8.0.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="219">
-                  <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#143#158#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lec09/aqi_v9.0.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lec09/output_data/v8.0_pm25in_city_aqi.csv">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3330">
-                  <caret line="222" column="28" lean-forward="true" selection-start-line="222" selection-start-column="28" selection-end-line="222" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file:///anaconda3/lib/python3.7/site-packages/bs4/__init__.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="131">
-                  <caret line="245" selection-start-line="245" selection-end-line="245" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -76,7 +45,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect09_空气质量指数计算/代码/aqi_v9.0.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
+                <state relative-caret-position="-127">
                   <caret line="7" selection-start-line="7" selection-end-line="7" />
                 </state>
               </provider>
@@ -145,8 +114,8 @@
         <option value="$PROJECT_DIR$/lec09/aqi_v6.0.py" />
         <option value="$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect09_空气质量指数计算/代码/aqi_v7.0.py" />
         <option value="$PROJECT_DIR$/lec09/aqi_v7.0.py" />
-        <option value="$PROJECT_DIR$/lec09/aqi_v9.0.py" />
         <option value="$PROJECT_DIR$/lec09/aqi_v8.0.py" />
+        <option value="$PROJECT_DIR$/lec09/aqi_v9.0.py" />
       </list>
     </option>
   </component>
@@ -529,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554647711552</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="lec09 -&gt; aqi_v9.0 &#10;Pandas">
+      <created>1554686000406</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1554686000406</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -540,8 +516,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32789117" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24761905" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24761905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3972789" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -593,7 +569,8 @@
     <MESSAGE value="lec09 -&gt; aqi_v6.0 &#10;bs4" />
     <MESSAGE value="lec09 -&gt; aqi_v7.0 &#10;获取城市列表，自动获取所有城市数据" />
     <MESSAGE value="lec09 -&gt; aqi_v8.0 &#10;获取城市列表，自动获取所有城市数据，写入到CSV文件中" />
-    <option name="LAST_COMMIT_MESSAGE" value="lec09 -&gt; aqi_v8.0 &#10;获取城市列表，自动获取所有城市数据，写入到CSV文件中" />
+    <MESSAGE value="lec09 -&gt; aqi_v9.0 &#10;Pandas" />
+    <option name="LAST_COMMIT_MESSAGE" value="lec09 -&gt; aqi_v9.0 &#10;Pandas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -636,20 +613,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lec06/which_day_v2.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lec06/which_day_v5.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect06_判断第几天/代码/which_day_v4.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -981,15 +944,8 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/零基础Python入门--课件代码下载/lect09_空气质量指数计算/代码/aqi_v9.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="-127">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lec09/output_data/v8.0_pm25in_city_aqi.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3330">
-          <caret line="222" column="28" lean-forward="true" selection-start-line="222" selection-start-column="28" selection-end-line="222" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1000,20 +956,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lec09/output_data/v9.0_top10_aqi.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec09/output_data/v9.0_bottom10_aqi.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec09/aqi_v9.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lec09/aqi_v8.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state relative-caret-position="83">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#143#158#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lec09/aqi_v9.0.py">
+    <entry file="file://$PROJECT_DIR$/lec09/output_data/v8.0_pm25in_city_aqi.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>

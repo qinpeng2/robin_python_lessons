@@ -37,6 +37,17 @@ def main():
     print(top10_cities)
     print(splitter)
 
+    # bottom 10
+    # bottom10_cities = aqi_data.sort_values(by=['AQI']).tail(10)
+    bottom10_cities = aqi_data.sort_values(by=['AQI'], ascending=False).head(10)
+    print('AQI排名最差前十：')
+    print(bottom10_cities)
+    print(splitter)
+
+    # 保存CSV文件
+    top10_cities.to_csv('output_data/v9.0_top10_aqi.csv', index=False)
+    bottom10_cities.to_csv('output_data/v9.0_bottom10_aqi.csv', index=False)
+
 
 if __name__ == '__main__':
     main()
