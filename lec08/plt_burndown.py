@@ -23,6 +23,8 @@ def main():
         total_km += km
         week_actual.append(target - total_km)
 
+    plt.figure(facecolor='#A9A9A9')
+    plt.axes(facecolor='k')
     plt.title('2019 Running Distance Burn Down Chart')
     plt.plot(week_target)
     plt.plot(week_actual)
