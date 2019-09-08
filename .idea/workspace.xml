@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ca2bf05-08bd-47e8-a2e9-f5aa26d61055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lec08/agent_orders.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec08/process.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lec08/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lec08/data.csv" afterDir="false" />
     </list>
@@ -18,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lec09/aqi_v9.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="495">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lec08/data.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="371">
+              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -178,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,12 +188,6 @@
               <item name="robin_lesson" type="b2602c69:ProjectViewProjectNode" />
               <item name="robin_lesson" type="462c0819:PsiDirectoryNode" />
               <item name="lec08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robin_lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robin_lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="lec08" type="462c0819:PsiDirectoryNode" />
-              <item name="process.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="robin_lesson" type="b2602c69:ProjectViewProjectNode" />
@@ -217,7 +210,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -720,19 +712,26 @@
       <option name="project" value="LOCAL" />
       <updated>1566894698021</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="data update">
+      <created>1567480761858</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1567480761858</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="829" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16842847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45923913" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32700136" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45861602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39676112" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -800,11 +799,6 @@
           <url>file://$PROJECT_DIR$/lec02/currency_converter_v2.0.py</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lec08/process.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1099,37 +1093,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lec08/agent_orders.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lec08/agent_orders2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4560">
-          <caret line="304" column="29" selection-start-line="304" selection-start-column="29" selection-end-line="304" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lec08/agent_orders3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lec08/process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lec08/agent_orders.csv" />
+    <entry file="file://$PROJECT_DIR$/lec08/agent_orders3.csv" />
+    <entry file="file://$PROJECT_DIR$/lec08/process.py" />
+    <entry file="file://$PROJECT_DIR$/lec08/agent_orders2.csv" />
     <entry file="file://$PROJECT_DIR$/lec09/aqi_v9.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="495">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
@@ -1176,8 +1146,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lec08/data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="371">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
