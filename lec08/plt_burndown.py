@@ -3,7 +3,7 @@ import pandas
 
 
 def read_personal_data():
-    week_data = pandas.read_csv('data.csv')
+    week_data = pandas.read_csv('data_2019.csv')
     return week_data['km']
 
 
@@ -25,12 +25,16 @@ def main():
 
     plt.figure(facecolor='#A9A9A9')
     plt.axes(facecolor='k')
+    plt.axhline(0, 0, 1000, color='w')
+    plt.axvline(0, 0, 54, color='w')
     plt.title('2019 Running Distance Burn Down Chart')
     plt.plot(week_target)
     plt.plot(week_actual)
     plt.xlabel('Burn Down by Week')
     plt.ylabel('GOAL for 1000km')
     plt.plot()
+    #plt.hlines(1000, 0, 1000)
+    #plt.vlines(54, 0, 54)
     plt.show()
 
 
